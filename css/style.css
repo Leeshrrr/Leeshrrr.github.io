@@ -18,12 +18,12 @@ pre {
 }
 
 body {
-    font-family: 'Crimson Text', serif;
+    font-family: 'M PLUS 2';
     font-size: 16px;
     line-height: 1.52;
     background-color: #ffffff;
     text-rendering: optimizeLegibility;
-    //padding-left: 8%;
+    /* padding-left: 8%; */
 }
 
 body {
@@ -230,6 +230,8 @@ footer .copy a {
 .name {
     text-align: center;
     font-size: 1.6em;
+    margin: 20px;
+    font-family: 'M PLUS 2';
 }
 
 .menuBar {
@@ -252,7 +254,7 @@ footer .copy a {
 #topBar {
     padding-top: 10px;
     padding-bottom: -20px;
-    font-family: 'Mada', sans-serif;
+    /* font-family: 'Mada', sans-serif; */
     font-size: 14px;
     letter-spacing: 1px;
 }
@@ -290,49 +292,59 @@ footer .copy a {
  /* margin-left: 10%*/
 
 
-}
+/* } */
+
 */ .highlight {
     border-bottom: 1px dotted;
     font-size: 16px;
 }
+
 .header {
     margin: 1.5em 0 1.5em;
     /*margin-left: 10%;*/
 }
+
 .header h1 {
     font-size: 2.6em;
     text-align: center;
     font-weight: 700;
     /*margin: 0;*/
 }
+
 .header a,
 .header a:hover {
     text-decoration: none;
     color: #171717;
 }
+
 img {
     margin-top: 20px;
     width: 80%;
     max-width: 300px;
     margin-bottom: 20px;
 }
+
 .vid {
     width: 80%;
     height: auto;
     max-width: 700px;
 }
+
 .content-wrap {
     max-width: 95%;
     margin: 0 auto;
     margin-top: 20px;
 }
+
 .contact {
     max-width: 100%;
 }
+
 .content-wrapper {
     max-width: 750px;
     margin: 0 auto;
 }
+
 img[alt="me"] {
     max-width: 250px;
     display: inline-block;
@@ -340,6 +352,7 @@ img[alt="me"] {
     //margin: 0 auto;
     //padding-top: 30px;
 }
+
 .contact-pts {
     display: inline-block;
     vertical-align: middle;
@@ -347,22 +360,25 @@ img[alt="me"] {
     padding-left: 30px;
     padding-top: 30px;
 }
+
 .links {
     text-align: center;
     margin-top: 30px;
 }
+
 ///// PHOTO PAGE 
 .photo-container {
     /*  display: flex;
   flex-flow: row wrap;*/
-    
     max-width: 100%;
     margin: 0 auto;
     margin-top: 20px;
 }
+
 .photos {
     text-align: center;
 }
+
 .photo {
     text-align: center;
     margin: 0 auto;
@@ -370,19 +386,19 @@ img[alt="me"] {
     width: fit-content;
     display: inline-block;
 }
+
 .photos .photo img {
     width: 100%;
     max-width: 600px;
 }
+
 @media (max-width: 690px) {
     h1 {
         font-size: 1.5em;
     }
-    
     #name {
         display: block;
     }
-    
     p {
         margin: 0 auto;
     }

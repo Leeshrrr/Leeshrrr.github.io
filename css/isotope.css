@@ -1,9 +1,9 @@
 #container {
     margin: 0 auto;
-    //padding: 0;
+    /* //padding: 0; */
     max-width: 95%;
     list-style: none;
-    /*text-align: center;*/
+    text-align: center;
     font-size: 0px;
 }
 

@@ -5,10 +5,10 @@
 
     "scripts": {
         "dev": "next dev",
-
         "start": "next start",
         "lint": "next lint",
-        "build": "next build && touch out/.nojekyll"
+        "build": "next build && touch out/.nojekyll",
+        "deploy": "npm run build && cp -r out/* . && git add . && git commit -m 'Deploy Next.js to GitHub Pages' && git push origin main"
     },
     "dependencies": {
         "next": "15.2.3",

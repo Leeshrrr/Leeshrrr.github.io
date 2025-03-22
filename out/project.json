@@ -1,0 +1,38 @@
+[{
+        "id": "4",
+        "year": "2025",
+        "title": "Metaphorical Language of Global Warming: A Data Physicalization Approach Driven by Shifts in Animal Coloration",
+        "tag": ["data physicalization", "public visualization", "enviroment"],
+        "intro": "This paper introduces an metaphoric data physicalization that employs sculpture as a medium, incorporating new media and heat sensing technologies to convey global warming data. The data physicalization employs shifts in animal fur coloration as metaphors for global temperature increases, visually illustrating the impact of climate change.",
+        "link": "https://xxxx.com",
+        "picture": "polar.png"
+    },
+    {
+        "id": "3",
+        "year": "2021",
+        "title": "Lead pollution: a failed system",
+        "tag": ["data journalism", "lead pollution"],
+        "intro": "Ebony was diagnosed with lead poisoning at the age of 2. Ebony's malady came from eating paint chips from a window sill in the apartment where her family lived in the Saint Louis University campus, as her mother Debbie Thomas-Smith later concluded.",
+        "link": "https://leeshrrr.github.io/city-as-system/",
+        "picture": "lead.png"
+    },
+    {
+        "id": "2",
+        "year": "2020",
+        "title": "Rose, desert and planet",
+        "tag": ["augment reality", "fairy tale", "book design"],
+        "intro": "A good book can accompany you until you fall asleep, be a good memory between parents and children, and be a gift to friends and families. No matter children or adults, our hearts need a home.",
+        "link": "https://xxxx.com",
+        "picture": "fox.png"
+    },
+    {
+        "id": "1",
+        "year": "2020",
+        "title": "Dream of breath",
+        "tag": ["motion graphic", "nature"],
+        "intro": "The topic of the project is \"breathing\", and I chose \"the breath of nature\" as the theme. The concept of the video is to show the natural and rhythmic sense of breath. Nature's breath is in our genes, and it's something we're born with. She grew vibrantly, gentle and strong; The cycle goes on and on, and never stops.",
+        "link": "https://xxxx.com",
+        "picture": "breath.png"
+    }
+
+]

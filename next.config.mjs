@@ -11,6 +11,7 @@ const nextConfig = {
     images: {
         unoptimized: true, // 让 Next.js 图片支持 GitHub Pages
     },
+    reactStrictMode: true,
 };
-
+module.exports = nextConfig;
 export default nextConfig;

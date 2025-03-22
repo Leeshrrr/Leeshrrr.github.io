@@ -1,9 +1,7 @@
 {
   "version": 1,
   "config": {
-    "env": {
-      "NEXT_FONT_GOOGLE_IGNORE": "true"
-    },
+    "env": {},
     "webpack": null,
     "eslint": {
       "ignoreDuringBuilds": false
@@ -166,7 +164,7 @@
       "imgOptSequentialRead": null,
       "isrFlushToDisk": true,
       "workerThreads": false,
-      "optimizeCss": true,
+      "optimizeCss": false,
       "nextScriptWorkers": false,
       "scrollRestoration": false,
       "externalDir": false,
@@ -304,8 +302,7 @@
     ".next/server/server-reference-manifest.json",
     ".next/BUILD_ID",
     ".next/server/next-font-manifest.js",
-    ".next/server/next-font-manifest.json",
-    ".next/static/css/0cef7cf02f006eca.css"
+    ".next/server/next-font-manifest.json"
   ],
   "ignore": [
     "node_modules/next/dist/compiled/@ampproject/toolbox-optimizer/**/*"

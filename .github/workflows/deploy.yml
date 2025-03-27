@@ -9,6 +9,7 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  
 
 jobs:
   deploy:
@@ -25,7 +26,7 @@ jobs:
         run: npm run build  # 🔥 关键！生成 dist/
 
       - name: Upload dist folder
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v1
         with:
           path: ./build/client # 🔥 必须有 dist 才行
 

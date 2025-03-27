@@ -27,7 +27,7 @@ jobs:
       - name: Upload dist folder
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist # 🔥 必须有 dist 才行
+          path: ./build/client # 🔥 必须有 dist 才行
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v2

@@ -41,11 +41,9 @@ export default function Publication() {
               {/* 处理 Author 字段，"Yechun Peng" 加粗变色 */}
               <p className="item-text">
                 {item.author
-                  .split(/(Yechun Peng(?:\*|†)?)/g)
+                  .split(/(Yechun Peng\*?)/g)
                   .map((part, index) =>
-                    part === "Yechun Peng" ||
-                    part === "Yechun Peng*" ||
-                    part === "Yechun Peng†" ? (
+                    part === "Yechun Peng" || part === "Yechun Peng*" || part === "Yechun Peng†" ? (
                       <span key={index} className="highlight-author">
                         {part}
                       </span>
@@ -57,9 +55,9 @@ export default function Publication() {
 
               <p className="item-text">{item.conference}</p>
 
-              {/* 处理 paper / website / material / presentation / demo */}
+              {/* 处理 paper / Explorer / material / presentation / demo */}
               {(item.paper ||
-                item.website ||
+                item.explorer ||
                 item.material ||
                 item.presentation ||
                 item.demo) && (
@@ -78,24 +76,24 @@ export default function Publication() {
                   )}
 
                   {item.paper &&
-                    (item.website ||
+                    (item.explorer ||
                       item.material ||
                       item.presentation ||
                       item.demo) &&
                     " | "}
 
-                  {item.website && (
+                  {item.explorer && (
                     <a
-                      href={item.website}
+                      href={item.explorer}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="item-link"
                     >
-                      Website
+                      Explorer
                     </a>
                   )}
 
-                  {item.website &&
+                  {item.explorer &&
                     (item.material || item.presentation || item.demo) &&
                     " | "}
 

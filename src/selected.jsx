@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import ".//styles.css"; // 引入样式
 
-export default function Selected() {
+export default function Publication() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -15,15 +15,11 @@ export default function Selected() {
         return response.json();
       })
       .then((json) => {
-        // 只保留 selected 为 true 的项目
-        const filteredData = json.filter(
-          (item) => item.selected === true
-        );
+        // 只显示 selected 为 true 的项目
+        const filteredData = json.filter((item) => item.selected === true);
 
         // 按 id 进行排序（确保 id 为数字）
-        const sortedData = filteredData.sort(
-          (a, b) => Number(b.id) - Number(a.id)
-        );
+        const sortedData = filteredData.sort((a, b) => Number(b.id) - Number(a.id));
 
         setData(sortedData);
       })
@@ -65,9 +61,9 @@ export default function Selected() {
 
               <p className="item-text">{item.conference}</p>
 
-              {/* 处理 paper / website / material / presentation / demo */}
+              {/* 处理 paper / Explorer / material / presentation / demo */}
               {(item.paper ||
-                item.website ||
+                item.explorer ||
                 item.material ||
                 item.presentation ||
                 item.demo) && (
@@ -86,24 +82,24 @@ export default function Selected() {
                   )}
 
                   {item.paper &&
-                    (item.website ||
+                    (item.explorer ||
                       item.material ||
                       item.presentation ||
                       item.demo) &&
                     " | "}
 
-                  {item.website && (
+                  {item.explorer && (
                     <a
-                      href={item.website}
+                      href={item.explorer}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="item-link"
                     >
-                      Website
+                      Explorer
                     </a>
                   )}
 
-                  {item.website &&
+                  {item.explorer &&
                     (item.material || item.presentation || item.demo) &&
                     " | "}
 

@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 import ".//styles.css"; // 引入样式
 
-export default function Publication() {
+export default function Selected() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -15,8 +15,16 @@ export default function Publication() {
         return response.json();
       })
       .then((json) => {
+        // 只保留 selected 为 true 的项目
+        const filteredData = json.filter(
+          (item) => item.selected === true
+        );
+
         // 按 id 进行排序（确保 id 为数字）
-        const sortedData = json.sort((a, b) => Number(b.id) - Number(a.id));
+        const sortedData = filteredData.sort(
+          (a, b) => Number(b.id) - Number(a.id)
+        );
+
         setData(sortedData);
       })
       .catch((error) => console.error("Error loading JSON:", error));
@@ -24,7 +32,7 @@ export default function Publication() {
 
   return (
     <div className="container">
-      <h1 className="title">All Publications</h1>
+      <h1 className="title">Selected Publications</h1>
       <div className="list-container">
         {data.map((item) => (
           <div key={item.id} className="list-item">

@@ -323,7 +323,7 @@ body {
     align-items: center;
     gap: 20px;
     padding: 20px;
-    max-width: 700px;
+    max-width: 900px;
     margin: 50px auto;
 }
 
@@ -354,6 +354,7 @@ body {
     font-size: 14px;
     color: #555;
     text-align: center;
+    line-height: 1.6;
 }
 
 
@@ -371,6 +372,18 @@ body {
     color: #333;
     line-height: 1.5;
     margin: 0px 0px 0px 50px;
+}
+
+.profile-bio .item-link {
+    font-size: inherit;
+}
+
+.profile-bio p {
+    margin: 0 0 12px 0;
+}
+
+.profile-bio p:last-child {
+    margin-bottom: 0;
 }
 
 @media (max-width: 768px) {

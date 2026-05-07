@@ -1,38 +1,106 @@
-[{
-        "id": "4",
-        "year": "2025",
-        "title": "Metaphorical Language of Global Warming: A Data Physicalization Approach Driven by Shifts in Animal Coloration",
-        "tag": ["data physicalization", "public visualization", "enviroment"],
-        "intro": "This paper introduces an metaphoric data physicalization that employs sculpture as a medium, incorporating new media and heat sensing technologies to convey global warming data. The data physicalization employs shifts in animal fur coloration as metaphors for global temperature increases, visually illustrating the impact of climate change.",
-        "link": "https://xxxx.com",
-        "picture": "polar.png"
-    },
-    {
-        "id": "3",
-        "year": "2021",
-        "title": "Lead pollution: a failed system",
-        "tag": ["data journalism", "lead pollution"],
-        "intro": "Ebony was diagnosed with lead poisoning at the age of 2. Ebony's malady came from eating paint chips from a window sill in the apartment where her family lived in the Saint Louis University campus, as her mother Debbie Thomas-Smith later concluded.",
-        "link": "https://leeshrrr.github.io/city-as-system/",
-        "picture": "lead.png"
-    },
-    {
-        "id": "2",
-        "year": "2020",
-        "title": "Rose, desert and planet",
-        "tag": ["augment reality", "fairy tale", "book design"],
-        "intro": "A good book can accompany you until you fall asleep, be a good memory between parents and children, and be a gift to friends and families. No matter children or adults, our hearts need a home.",
-        "link": "https://xxxx.com",
-        "picture": "fox.png"
-    },
-    {
-        "id": "1",
-        "year": "2020",
-        "title": "Dream of breath",
-        "tag": ["motion graphic", "nature"],
-        "intro": "The topic of the project is \"breathing\", and I chose \"the breath of nature\" as the theme. The concept of the video is to show the natural and rhythmic sense of breath. Nature's breath is in our genes, and it's something we're born with. She grew vibrantly, gentle and strong; The cycle goes on and on, and never stops.",
-        "link": "https://xxxx.com",
-        "picture": "breath.png"
-    }
-
+[
+  {
+    "id": "8",
+    "title": "Echoes of Poetry",
+    "link": "https://musicpoetry.github.io/",
+    "year": "2025",
+    "type": "data story",
+    "description_short": "An interactive data story that explores how classical Chinese poetry is reimagined, remixed, and emotionally revived through modern pop music.",
+    "description": "<p>\n  <em>Echoes of Poetry</em> is an interactive narrative data story that traces how classical Chinese poetry continues to resonate within contemporary pop music culture.\n</p>\n\n<p>\n  By connecting over 600 pop songs with classical poetic verses, the project explores how traditional literary fragments are quoted, adapted, and transformed into new emotional and cultural expressions.\n</p>\n\n<p>\n  Rather than presenting poetry as a distant historical artifact, the project reframes it through the language of modern music culture, revealing poetry as a living cultural medium circulating within everyday popular culture.\n</p>",
+    "award": "1",
+    "award_intro": "Winner of CHINA DATA CONTENT CONFERENCE 2025 and Shortlist of The 2026 Visual Data Storytelling Contest",
+    "video": "https://youtu.be/NY0t_lVFhR0",
+    "picture": "music2.png"
+  },
+  {
+    "id": "7",
+    "title": "Mourning Skins: A Time-lapse Photography Series",
+    "link": "",
+    "year": "2025",
+    "type": "AIGC video",
+    "description_short": "A speculative video imagining how climate change may transform and erode animal life through AI-generated metamorphoses.",
+    "description": "<p>\n  <em>Mourning Skins</em> explores the silent transformations of animal life under the relentless pressure of climate change, bridging the seemingly intangible phenomenon of global warming with tangible, visible shifts in animals’ skins and appearances.\n</p>\n\n<p>\n  By feeding an AI system with scientific papers on climate change and its effects on animal skins and external forms, along with datasets documenting recent morphological changes, the work prompts the AI to imagine how extreme environmental pressures might reshape the future of life. The result is a speculative yet haunting vision: a polar bear whose white fur succumbs to moss and floral overgrowth before decay; corals losing their vibrant symbiotic partners, bleaching, and crumbling into dust; a butterfly’s brilliant wings fading into charcoal and igniting into flame; and an antelope whose snowy coat fractures into brittle, stone-like camouflage.\n</p>\n\n<p>\n  Presented as if captured through time-lapse photography, the four moving images adopt a hyperreal, photographic style. Each frame compresses decades or centuries of environmental degradation into a minute of transformation, rendering the slow violence of climate change immediate and visible.\n</p>\n\n<p>\n  Through this visual compression, <em>Mourning Skins</em> seeks to evoke a deeper awareness of the irreversible losses unfolding beyond ordinary perception. It stands as both a lament for fragile beauty and a quiet warning of what may come — a world where even survival becomes a form of mourning.\n</p>",
+    "award": "1",
+    "award_intro": "Winner of CHINA DATA CONTENT CONFERENCE 2025",
+    "video": "https://youtu.be/CivNVBaq1vA",
+    "picture": "mourning2.png"
+  },
+  {
+    "id": "6",
+    "title": "Starry Starry Night",
+    "link": "https://astrologytangpoetry.github.io/",
+    "year": "2024",
+    "type": "data story",
+    "description_short": "An interactive data story that explores how astrology imagery shaped the imagination, emotions, and poetic expression of Tang poetry.",
+    "description": "<p>\n  <em>Starry Starry Night</em> is an interactive narrative data story that explores how astrology imagery shaped the imagination and emotional world of Tang poetry. By analyzing over two thousand astrology-related poems, the project reveals how stars, constellations, and celestial symbols were woven into poetic expression, cultural beliefs, and literary aesthetics in ancient China.\n</p>\n\n<p>\n  Rather than presenting Tang poetry as static literary knowledge, the project transforms it into an explorable visual universe inspired by astronomy and star maps. The story unfolds across multiple perspectives, including constellation symbolism, poetic emotions, and the different ways poets incorporated celestial imagery into their writing.\n</p>\n\n<p>\n  The visual design draws inspiration from celestial observation and cosmic imagination, incorporating constellations, glowing particles, and star-map aesthetics to create an immersive poetic atmosphere. Through this visualization language, Tang poetry is reimagined as a living constellation system, allowing readers to wander through the emotional and symbolic landscape of classical Chinese literature.\n</p>",
+    "award": "1",
+    "award_intro": "Winner of CHINA DATA CONTENT CONFERENCE 2024 and Honorable mention of The 2024 Visual Data Storytelling Contest",
+    "video": "https://youtu.be/H3wYru_80sg",
+    "picture": "astrology2.png"
+  },
+  {
+    "id": "5",
+    "title": "Modern Women: A Shadow Play",
+    "link": "https://leeshrrr.github.io/modern-shadow-puppet/",
+    "year": "2023",
+    "type": "NFT design",
+    "description_short": "An NFT project that reimagines modern female identities through the visual language of traditional Chinese shadow puppetry.",
+    "description": "<p>\n  <em>Modern Women: A Shadow Play</em> is a generative design project that reimagines modern female identities through the visual language of traditional Chinese shadow puppetry.\n</p>\n\n<p>\n  <em>Modern Women: A Shadow Play</em> explores how traditional Chinese shadow puppetry can be transformed into a contemporary visual identity system for modern women. By extracting characteristic colors, facial structures, costume patterns, and decorative elements from classical shadow puppets, the project reconstructs them into a simplified and modern graphic style.\n</p>\n\n<p>\n  The project combines traditional folk aesthetics with contemporary hairstyles, fashion elements, and accessories, creating a modular character system that allows diverse female portraits to be freely generated and combined. Presented as an interactive portrait-generation platform, it reinterprets shadow puppetry as a living visual culture that continues to evolve within contemporary digital media.\n</p>",
+    "award": "0",
+    "award_intro": "",
+    "video": "https://youtu.be/ZT8MTdnxGUw",
+    "picture": "shadow.png"
+  },
+  {
+    "id": "4",
+    "title": "Lead Pollution: A Failed System",
+    "link": "https://leeshrrr.github.io/city-as-system/",
+    "year": "2021",
+    "type": "data story",
+    "description_short": "An interactive data story that reveals how lead poisoning persists as a hidden and unequal public health crisis embedded within urban systems and social structures.",
+    "description": "<p>\n  <em>Lead Pollution: A Failed System</em> is an interactive narrative data story that examines the long-term and often invisible consequences of lead poisoning in contemporary society. Through personal stories, public health statistics, environmental data, and social analysis, the project reveals how lead contamination continues to shape human lives despite decades of regulation and intervention.\n</p>\n\n<p>\n  Centered around the story of lead poisoning survivor Ebony Smith-Thomas, the project connects individual experiences with broader systemic issues, including aging infrastructures, environmental neglect, housing inequality, and public health failure. By combining medical research, geographic data, and social narratives, the story exposes how lead poisoning disproportionately affects low-income communities and children, turning environmental risk into a deeply unequal social condition.\n</p>\n\n<p>\n  The narrative unfolds through multiple perspectives, including the biological effects of lead exposure, the persistence of contamination within urban systems, and ongoing efforts by governments and organizations to address the crisis. Rather than presenting lead poisoning as an isolated environmental issue, the project frames it as a systemic failure that continues to reproduce itself across generations.\n</p>\n\n<p>\n  Visually, the project combines documentary imagery, data visualization, and editorial-style storytelling to create an immersive and emotionally driven experience. Through this narrative structure, invisible toxicity is transformed into something socially visible and emotionally immediate, encouraging viewers to reflect on the hidden infrastructures and inequalities shaping public health in modern cities.\n</p>",
+    "award": "0",
+    "award_intro": "",
+    "video": "",
+    "picture": "lead.png"
+  },
+  {
+    "id": "3",
+    "title": "Dream of Breath",
+    "link": "",
+    "year": "2020",
+    "type": "motion graphic",
+    "description_short": "A motion graphics that imagines breathing as a shared rhythm connecting the human body, nature, and the universe.",
+    "description": "<p>\n  <em>Dream of Breath</em> is an experimental motion graphics project that explores the rhythm of breathing through a dreamlike journey across the ocean, forest, and cosmos. Structured as a sequence of visual poems, the project follows a sleeping protagonist who gradually dissolves into different forms of nature, experiencing the “breath” of tides, trees, animals, and the universe itself.\n</p>\n\n<p>\n  The narrative unfolds through a series of metaphorical transformations: bubbles drifting through the ocean, forests swaying with wind, animals panting after movement, birds ascending into the night sky, and planets rotating through endless cycles of time. Rather than telling a linear story, the animation creates an emotional flow based on rhythm, repetition, and visual transitions inspired by breathing patterns.\n</p>\n\n<p>\n  The project adopts a soft paper-cut and collage-inspired aesthetic combined with gentle motion and cinematic transitions. The animation emphasizes ecological atmosphere, silence, and cyclical movement, transforming breath into a poetic medium that connects individual existence with larger natural and cosmic systems.\n</p>",
+    "award": "0",
+    "award_intro": "",
+    "video": "https://youtu.be/vO0VnYo959g",
+    "picture": "breath.png"
+  },
+  {
+    "id": "2",
+    "title": "Rose, Dessert and Planet",
+    "link": "",
+    "year": "2020",
+    "type": "augmented reality",
+    "description_short": "An immersive AR storybook project that transforms The Little Prince into an interactive journey of memory, loneliness, and childhood imagination.",
+    "description": "<p>\n  <em>Rose, Desert and Planets</em> is an augmented reality storybook project inspired by <em>The Little Prince</em>. Combining physical books with mobile AR experiences, the project transforms iconic scenes from the story into interactive three-dimensional environments that emerge directly from the pages of the book.\n</p>\n\n<p>\n  The project reconstructs the wandering journey of the Little Prince through a series of stylized miniature planets and narrative scenes, including the rose planet, the lamplighter’s planet, the drunkard’s planet, encounters with the fox, and the final farewell in the desert. Each spread of the book triggers animated AR content, allowing readers to experience the story as an explorable spatial world rather than a static illustration.\n</p>\n\n<p>\n The project adopts a warm low-poly aesthetic inspired by fairy tales, theater stages, and handcrafted miniature worlds. Through storytelling, AR interaction, and spatial scene design, the project reimagines <em>The Little Prince</em> as an intimate digital experience about memory, departure, loneliness, and emotional connection.\n</p>",
+    "award": "0",
+    "award_intro": "",
+    "video": "https://youtu.be/XrUEpnoXcKs",
+    "picture": "fox.png"
+  },
+  {
+    "id": "1",
+    "title": "Colors",
+    "link": "",
+    "year": "2019",
+    "type": "motion graphic",
+    "description_short": "A playful motion graphics project about the colors, rhythms, and little joys hidden in everyday food.",
+    "description": "<p>\n  <em>Colors</em> is a motion graphics project themed around food colors. Using a playful and lively visual style, the project transforms different foods into animated color compositions, combining cutting, pouring, squeezing, and mixing motions with upbeat background music.\n</p>\n\n<p>\n  Instead of presenting food realistically, the animation simplifies ingredients into flat shapes and soft color blocks, focusing more on rhythm, movement, and the emotional feeling of color itself. Different foods and ingredients appear almost like visual beats within the animation, creating a cheerful and energetic atmosphere.\n</p>\n\n<p>\n  The project explores how motion, music, and color can work together to make ordinary everyday objects feel more vivid, rhythmic, and expressive.\n</p>",
+    "award": "0",
+    "award_intro": "",
+    "video": "https://youtu.be/CxELjr1dTrY",
+    "picture": "color.png"
+  }
 ]

@@ -1,9 +1,14 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import "./styles.css"; // 引入独立 CSS 文件
+import { Link } from "react-router-dom";
+import "./styles.css";
 
-export default function Project () {
+function hasAward(award) {
+  return award === true || award === "true" || award === "1" || award === 1;
+}
+
+export default function Project() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
@@ -15,51 +20,41 @@ export default function Project () {
         return response.json();
       })
       .then((json) => {
-        const sortedData = json.sort((a, b) => Number(b.id) - Number(a.id)); 
-        setProjects(json)})
+        const sortedData = json.sort((a, b) => Number(b.id) - Number(a.id));
+        setProjects(sortedData);
+      })
       .catch((error) => console.error("Error loading JSON:", error));
   }, []);
 
   return (
-<div className="container">
-<h1 className="title">Projects</h1>
-    <div className="project-container">
-      {projects.map((project) => (
-        <div
-          key={project.title}
-          href={project.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="project-card"
-        >
-          <img src={`/images/${project.picture}`} alt={project.title} className="project-image" />
-          {/* 黑色半透明遮罩层 */}
-          <div className="overlay"></div>
-
-          {/* 项目内容 */}
-          <div className="project-content">
-            <h2 className="project-title">{project.title}</h2>
-            
-            {/* Tag 列表 */}
-            <div className="project-tags">
-              {project.tag.map((tag, index) => (
-                <span key={index} className="tag">{tag}</span>
-              ))}
-            </div>
-
-            <p className="project-intro">{project.intro}</p>
-            <div className="project-footer">
-              <span className="year-badge">{project.year}</span>
-                {project.link && (
-                  <a href={project.link} target="_blank" rel="noopener noreferrer" className="item-link">
-                    Link
-                  </a>
-                )}
+    <div className="container">
+      <h1 className="title">Projects</h1>
+      <div className="projects-grid">
+        {projects.map((project) => (
+          <Link
+            key={project.id}
+            to={`/projects/${project.id}`}
+            className="project-feature-card"
+          >
+            <img
+              src={`/images/${project.picture}`}
+              alt={project.title}
+              className="project-feature-image"
+            />
+            <div className="project-feature-body">
+              <div className="project-feature-meta">
+                <span className="project-chip">{project.year}</span>
+                <span className="project-feature-type">{project.type}</span>
               </div>
-          </div>
-        </div>
-      ))}
-    </div>
+              <h2 className="project-feature-title">{project.title}</h2>
+              {hasAward(project.award) && (
+                <p className="project-feature-award">award winner🏆</p>
+              )}
+              <p className="project-feature-description">{project.description_short}</p>
+            </div>
+          </Link>
+        ))}
+      </div>
     </div>
   );
-};
+}
